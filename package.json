@@ -1,7 +1,7 @@
 {
   "name": "app2",
   "version": "0.1.0",
-  "homepage": "https://ahmeda4f.github.io/e-commerce1",
+  "homepage": "https://ahmeda4f.github.io/e-commerce",
   "private": true,
   "dependencies": {
     "@sweetalert2/themes": "^5.0.15",

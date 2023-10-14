@@ -45,7 +45,7 @@ let navigate = useNavigate()
 
   return (
     <section className='p-5 my-5 bg-light' >
-            <h2>Verify Your Email</h2>
+            <h2>Verify your Email</h2>
 
       {errorMsg ? <div className='alert alert-danger'>{errorMsg}</div> : null}
       <form onSubmit={formik.handleSubmit} className='my-4'>
