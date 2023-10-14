@@ -39,7 +39,7 @@ function Form2() {
       /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g,
       "Invalid email"
     ),
-  password: Yup.string()
+  newPassword: Yup.string()
     .required("Password is required")
     .matches(
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*#?&])(?=.*\d)[a-zA-Z\d@$!%*#?&]{8,}$/,
