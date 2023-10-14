@@ -32,13 +32,21 @@ export default function Login() {
     }
   }
 
-  let validate = Yup.object({
-    email: Yup.string().required("Email is required").matches(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g),
-    password: Yup.string().required("Password is required").matches(
-      /^(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*#?&])(?=.*\d)[a-zA-Z\d@$!%*#?&]{8,}$/,
-      "Password must meet the criteria"
+ const validate = Yup.object({
+  email: Yup.string()
+    .required("Email is required")
+    .matches(
+      /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g,
+      "Invalid email"
     ),
-  });
+  password: Yup.string()
+    .required("Password is required")
+    .matches(
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*#?&])(?=.*\d)[a-zA-Z\d@$!%*#?&]{8,}$/,
+      "Password must have at least one lowercase letter, one uppercase letter and one digit. Minimum length 8 char."
+    ),
+});
+
 
   let formik = useFormik({
     initialValues: {
