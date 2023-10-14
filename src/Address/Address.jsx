@@ -10,7 +10,7 @@ function Address() {
  
     try {
       const res = await axios.post(
-        `https://route-ecommerce.onrender.com/api/v1/orders/checkout-session/${cartId}?url=http://localhost:3000`,
+        `https://route-ecommerce.onrender.com/api/v1/orders/checkout-session/${cartId}?url=https://ahmeda4f.github.io/e-commerce`,
         {
           shippingAddress: values
         },
