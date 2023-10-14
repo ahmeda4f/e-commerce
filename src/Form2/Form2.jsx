@@ -77,13 +77,14 @@ function Form2() {
           <div className="d-flex align-items-center justify-content-between mx-3">
           {!isLoading ? (
             <button
-              disabled={!formik.isValid || !formik.dirty}
+            
               className="btn btn-success ms-auto mb-2 d-block bgss"
               type="submit"
             >
               Reset
             </button>
-          ) : (
+          )
+            : (
             <button disabled className="btn btn-success ms-auto mb-2 d-block">
               <i className="fa-solid fa-spinner fa-spin"></i>
             </button>
