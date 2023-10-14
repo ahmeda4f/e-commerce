@@ -31,7 +31,7 @@ let navigate = useNavigate()
     }
   }
      let validate = Yup.object({
-    email: Yup.string().required("Email is required").matches(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g),
+    email: Yup.string().required("Email is required").matches(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g,"invalid email"),
   
   });
 
