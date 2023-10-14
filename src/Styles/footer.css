@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(39, 35, 35);
+}
+
+
+.social-list{
+  color:#777;
+}
+.social-list i{
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  text-align: center;
+  border:1px solid #f6f6f6;
+transition: .3s;
+color: white !important;
+}
+.social-list i:hover{
+  color:#fff;
+  background-color: rgba(26,188,156,255);
+  border:1px solid rgba(26,188,156,255);
+
+}
+.bgd{
+  background-color: rgba(44,62,80,255);
+}
+.no-decoration1{
+  text-decoration: none !important;
+}
+.custom-title{
+  color: red !important;
+}
+.swal-button:focus {
+  box-shadow: none;
+}
+.swal2-modal .swal2-styled:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #127a2a !important;
+}

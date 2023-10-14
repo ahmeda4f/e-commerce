@@ -1,0 +1,79 @@
+/* .bg{
+    background-color:rgba(44,62,80,255) !important;
+}
+/* body{ */
+    /* background-color: rgba(26,188,156,255) !important; */
+    /*  */
+/* } */
+
+ .bgs{
+      background-color: rgba(26,188,156,255) !important;
+
+ }  */
+  .line-with-star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 4px; 
+    background-color: #fafafa; 
+    font-weight: bold;
+  }
+  
+  .star {
+    padding: 20px ; 
+    font-size: 30px; 
+    color: #fffefa; 
+    font-weight: bold;
+  }
+  /* .nav-item a:hover{
+    color:rgba(26,188,156,255) !important ;
+    transition: .3s;
+  } */
+   .l{
+   text-decoration: none !important;
+   
+  }
+  /* .nav-item a:active{
+    background-color: rgb(26,188,156) !important;
+    color: white !important;
+    transition: .3s;
+  } */
+/* 
+.layer{
+  left: 0;
+  top: 100%;
+  z-index: 3;
+  transition: .4s ease-out;
+  opacity: 0;
+  background-color: rgb(26,188,156);
+
+}
+.inner:hover .layer{
+  opacity: .7;
+} */
+
+.product:hover{
+  border: 2px solid rgb(26, 254, 26);
+}
+
+.no-decoration {
+  text-decoration: none !important;
+  color: black !important;
+}
+.scorllable-container {
+  overflow-x: hidden !important;
+}
+
+.ho:hover{
+  color: red !important;
+}
+.ho{
+  cursor: pointer;
+}
+/* .sa{
+  color: rgb(30, 156, 99) !important;
+} */
