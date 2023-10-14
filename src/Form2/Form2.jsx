@@ -77,7 +77,6 @@ function Form2() {
           <div className="d-flex align-items-center justify-content-between mx-3">
           {!isLoading ? (
             <button
-            
               className="btn btn-success ms-auto mb-2 d-block bgss"
               type="submit"
             >
